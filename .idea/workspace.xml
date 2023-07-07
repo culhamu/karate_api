@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="793a9100-579f-498e-918e-672969436b09" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="793a9100-579f-498e-918e-672969436b09" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -36,7 +34,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Cucumber Java.Scenario: TC003 Background kullanimi">
+  <component name="RunManager" selected="Cucumber Java.Feature: JPH04_BaskaFiledanJsonPlaceHolderKullanma">
     <configuration name="Feature: JPH03_TestDatalariniFeatureIcindeTanimlama" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="1.2" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/jsonPlaceHolder/JPH01_Get_ResponseAssertions/JPH03_TestDatalariniFeatureIcindeTanimlama.feature" />
@@ -45,6 +43,25 @@
       <module name="karate_api" />
       <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome" />
       <option name="SUGGESTED_NAME" value="Feature: JPH03_TestDatalariniFeatureIcindeTanimlama" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cucumber.api.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Feature: JPH04_BaskaFiledanJsonPlaceHolderKullanma" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="1.2" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/jsonPlaceHolder/JPH01_Get_ResponseAssertions/JPH04_BaskaFiledanJsonPlaceHolderKullanma.feature" />
+      <option name="GLUE" value="com.intuit.karate" />
+      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
+      <module name="karate_api" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome" />
+      <option name="SUGGESTED_NAME" value="Feature: JPH04_BaskaFiledanJsonPlaceHolderKullanma" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -79,6 +96,7 @@
     <configuration name="Scenario: TC003 Background kullanimi" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="1.2" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/jsonPlaceHolder/JPH01_Get_ResponseAssertions/JPH03_TestDatalariniFeatureIcindeTanimlama.feature" />
+      <option name="GLUE" value="com.intuit.karate" />
       <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
       <module name="karate_api" />
       <option name="NAME_FILTER" value="^TC003 Background kullanimi$" />
@@ -117,6 +135,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Cucumber Java.Feature: JPH04_BaskaFiledanJsonPlaceHolderKullanma" />
         <item itemvalue="Cucumber Java.Scenario: TC003 Background kullanimi" />
         <item itemvalue="Cucumber Java.Feature: JPH03_TestDatalariniFeatureIcindeTanimlama" />
         <item itemvalue="Cucumber Java.Scenario: TC002 Put request sonucu donen response expected degerlere uygun olmali" />
