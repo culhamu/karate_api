@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="793a9100-579f-498e-918e-672969436b09" name="Changes" comment="" />
+    <list default="true" id="793a9100-579f-498e-918e-672969436b09" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -34,7 +36,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Cucumber Java.Feature: JPH04_BaskaFiledanJsonPlaceHolderKullanma">
+  <component name="RunManager" selected="JUnit.JphRunner">
     <configuration name="Feature: JPH03_TestDatalariniFeatureIcindeTanimlama" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="1.2" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/jsonPlaceHolder/JPH01_Get_ResponseAssertions/JPH03_TestDatalariniFeatureIcindeTanimlama.feature" />
@@ -73,26 +75,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: TC002 Put request sonucu donen response expected degerlere uygun olmali" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="1.2" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/jsonPlaceHolder/JPH01_Get_ResponseAssertions/JPH02_Put_ResponseAssertions.feature" />
-      <option name="GLUE" value="com.intuit.karate" />
-      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
-      <module name="karate_api" />
-      <option name="NAME_FILTER" value="^TC002 Put request sonucu donen response expected degerlere uygun olmali$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^TC002 Put request sonucu donen response expected degerlere uygun olmali$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: TC002 Put request sonucu donen response expected degerlere uygun olmali" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cucumber.api.cli.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Scenario: TC003 Background kullanimi" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="1.2" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/jsonPlaceHolder/JPH01_Get_ResponseAssertions/JPH03_TestDatalariniFeatureIcindeTanimlama.feature" />
@@ -113,15 +95,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: TC01 Get request'e donen response'in beklenilen özelliklerde olmasi gerekir" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: TC005 Disaridan Json obje kullanilabilmeli" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="1.2" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/jsonPlaceHolder/JPH01_Get_ResponseAssertions/JPH01_Get_ResponseAssertions.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/jsonPlaceHolder/JPH01_Get_ResponseAssertions/JPH05_TestDatalarindaDegisiklikYapma.feature" />
       <option name="GLUE" value="com.intuit.karate" />
       <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
       <module name="karate_api" />
-      <option name="NAME_FILTER" value="^TC01 Get request\'e donen response\'in beklenilen özelliklerde olmasi gerekir$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^TC01 Get request\'e donen response\'in beklenilen özelliklerde olmasi gerekir$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: TC01 Get request'e donen response'in beklenilen özelliklerde olmasi gerekir" />
+      <option name="NAME_FILTER" value="^TC005 Disaridan Json obje kullanilabilmeli$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^TC005 Disaridan Json obje kullanilabilmeli$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: TC005 Disaridan Json obje kullanilabilmeli" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -133,13 +115,28 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="JphRunner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="karate_api" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="jsonPlaceHolder.JPH01_Get_ResponseAssertions.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="jsonPlaceHolder.JPH01_Get_ResponseAssertions" />
+      <option name="MAIN_CLASS_NAME" value="jsonPlaceHolder.JPH01_Get_ResponseAssertions.JphRunner" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.JphRunner" />
+        <item itemvalue="Cucumber Java.Scenario: TC005 Disaridan Json obje kullanilabilmeli" />
         <item itemvalue="Cucumber Java.Feature: JPH04_BaskaFiledanJsonPlaceHolderKullanma" />
         <item itemvalue="Cucumber Java.Scenario: TC003 Background kullanimi" />
         <item itemvalue="Cucumber Java.Feature: JPH03_TestDatalariniFeatureIcindeTanimlama" />
-        <item itemvalue="Cucumber Java.Scenario: TC002 Put request sonucu donen response expected degerlere uygun olmali" />
-        <item itemvalue="Cucumber Java.Scenario: TC01 Get request'e donen response'in beklenilen özelliklerde olmasi gerekir" />
       </list>
     </recent_temporary>
   </component>
